@@ -621,8 +621,11 @@ html {
   font-size: 12px;
   letter-spacing: 1.5px;
   line-height: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  overflow: hidden; }
   .logo-inline span {
+    display: inline-block;
+    float: left;
     padding: 4px 8px;
     border: 2px solid #FFFFFF; }
   .logo-inline span:first-child {
