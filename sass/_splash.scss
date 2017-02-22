@@ -37,6 +37,7 @@ html {
 	@media only screen and (max-width: $breakpoint-xs) {
 		height: 284px;
 		height: 50vh;
+		min-height: 284px;
 	}
 }
 
