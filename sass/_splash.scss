@@ -60,33 +60,11 @@ html {
 	}
 }
 
-.logo-inline {
-	display: inline-block;
-	font-family: $font-mono;
-	font-size: 12px;
-	letter-spacing: 1.5px;
-	line-height: 16px;
-	text-transform: uppercase;
-	overflow: hidden;
-
-	span {
-		display: inline-block;
-		float: left;
-		padding: 4px 8px;
-		border: 2px solid $brand-white;
-	}
-
-	span:first-child {
-		color: $brand-blue;
-		background-color: $brand-white;
-		margin-right: 8px;
-	}
-	span:last-child {
-		color: $brand-white;
-	}
+.logo-long {
+	max-width: 233px;
 }
 
-.logo-inline-wrapper {
+.logo-long-wrapper {
 	position: absolute;
 	bottom: 0;
 	left: 0;

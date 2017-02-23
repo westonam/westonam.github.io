@@ -615,34 +615,17 @@ html {
       float: none;
       margin: 0 auto 3em; } }
 
-.logo-inline {
-  display: inline-block;
-  font-family: Apercu-Mono;
-  font-size: 12px;
-  letter-spacing: 1.5px;
-  line-height: 16px;
-  text-transform: uppercase;
-  overflow: hidden; }
-  .logo-inline span {
-    display: inline-block;
-    float: left;
-    padding: 4px 8px;
-    border: 2px solid #FFFFFF; }
-  .logo-inline span:first-child {
-    color: #28407A;
-    background-color: #FFFFFF;
-    margin-right: 8px; }
-  .logo-inline span:last-child {
-    color: #FFFFFF; }
+.logo-long {
+  max-width: 233px; }
 
-.logo-inline-wrapper {
+.logo-long-wrapper {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 4em;
   width: 100%; }
   @media only screen and (max-width: 767px) {
-    .logo-inline-wrapper {
+    .logo-long-wrapper {
       text-align: center;
       padding: 4em 0; } }
 
